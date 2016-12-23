@@ -1,3 +1,59 @@
-body {
-    background-color: green;
+div {
+  border: 1px dashed #999;
+}
+
+/* PAGE TOP BANNER */
+
+.page-top {
+  background-color: #3B5998;
+  height: 110px;
+}
+
+.content-top {
+  width: 960px;
+  margin: 0 auto;
+  height: 110px;
+}
+
+.logo {
+  float: left;
+  font: 700 52px/1px "Klavika Bd", Arial;
+  color: white;
+}
+
+.sign-in-form {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+
+.sign-in-form label {
+  display: inline-block;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  margin: 5px 10px;
+}
+
+.sign-in-form input {
+  display: block;
+  margin: 7px 0;
+}
+
+.log-in-button {
+  float: right;
+  margin: 20px;
+}
+
+.log-in-button input {
+  font: 700 16px "Arial";
+  border-color: grey;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  background-color: #4267B2;
+}
+
+.log-in-button input:hover {
+  background-color: #3B5998;
 }
