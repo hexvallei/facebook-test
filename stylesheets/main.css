@@ -2,6 +2,11 @@ div {
   border: 1px dashed #999;
 }
 
+@font-face {
+  font-family: "Klavika Bd";
+  src: url('fonts/klavika-bd.otf');
+}
+
 /* PAGE TOP BANNER */
 
 .page-top {
@@ -9,9 +14,12 @@ div {
   height: 110px;
 }
 
-.content-top {
+.container {
   width: 960px;
   margin: 0 auto;
+}
+
+.content-top {
   height: 110px;
 }
 
@@ -57,3 +65,50 @@ div {
 .log-in-button input:hover {
   background-color: #3B5998;
 }
+
+
+/* PAGE LEFT INFO */
+
+.tagline {
+  font: 700 24px "Arial Black";
+  height: 50px;
+}
+
+.bullet-list {
+  font: 600 16px/38px "Arial";
+}
+
+.page-left {
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+/* PAGE RIGHT INFO */
+
+.sign-up-form input {
+  display: block;
+}
+
+
+
+
+
+
+
+/* PAGE BOTTOM */
+
+.page-bottom {
+  background-color: grey;
+  height: 35px;
+  position: fixed; 
+  bottom: 0%;
+  width: 100%;
+}
+
+.page-bottom .container {
+  font-family: Arial;
+  font-style: italic;
+  text-align: center;
+  line-height: 0px;
+}
+
